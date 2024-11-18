@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.671);
+}
+
+.hero{
+    display: flex;
+    background: rgb(77, 46, 46);
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    align-items: center;
+    height: 300px;
+}
+.hero *{
+    text-align: center;
+    height: 60px;
+}
+
+.passField{
+    width: 400px;
+    height: 60px;
+}
+button{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
